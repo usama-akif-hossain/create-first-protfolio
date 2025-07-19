@@ -1,0 +1,255 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* secondary-bg color */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+
+/* Nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    /* ata kortese karon ul h3 er jonno */
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+nav ul li{
+    list-style: none;
+    /* margin right er maje 51 nibo ak line anar pr gap krtese tai*/
+    margin-right: 51px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* parent ul ke like protfolio blog ak line */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+
+/* nav er color thik*/
+
+.dark-2{
+    color: #474747;
+}
+
+/* buttor er margin padding */
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    
+}
+
+
+
+/* header class er jonno */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
+
+/* abba banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+
+
+
+
+/* banner styles */
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-profice-pic{
+    width: 580px;
+}
+
+
+.banner-description{
+    font-size: 20px;
+    font-weight: 18px;
+    text-align: justify;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+
+
+/* main er vitor er kaj */
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* jto section ase */
+
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+   
+}
+
+/* abba for items */
+
+.about-items{
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.item-description{
+    font-weight: 600 ;
+}
+
+
+
+/* skills section */
+
+.text-center{
+    text-align: center;
+}
+
+/* skills section style */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #000000 ;
+    border-radius: 5px;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+   
+}
+
+.experience-description .experience-sub-title{
+    color: #757575;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;  
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* 
+.section-title{
+    text-align: center;
+} */
+
+
+/* footer Styles */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+
+}
+
+
+.footer-column{
+    width: 50%;
+}
+
+
+footer input[type="text"],footer input[type="email"], footer textarea{
+   height: 64px;
+   border-radius: 5px;
+   background-color: white;
+   display: block;
+   width: 100%;
+   padding: 10px 20px;
+   margin-bottom: 24px;
+   border: none;
+   margin: none;
+
+}
